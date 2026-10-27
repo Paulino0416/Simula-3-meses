@@ -17,7 +17,7 @@ bash simul.sh | tee simul.log
 
 ---
 
-## a. Introdução ao problema e intenção da aplicação
+## Introdução ao problema e intenção da aplicação
 
 Em comunidades ribeirinhas do Rio Madeira (como o bairro da Rua Amazonas), enchentes súbitas frequentemente derrubam provedores centralizados de internet no momento mais crítico. Além disso, grupos de mensagens convencionais sofrem com três problemas graves durante emergências:
 1. **Pânico causado por boatos e sabotagem**: alarmes falsos (*"a barragem rompeu!"*) ou sabotagens (*"o abrigo está lotado, não venham!"*) espalham-se sem filtro de confiabilidade.
@@ -62,7 +62,7 @@ Os **9 usuários** estão distribuídos entre **3 nós P2P** independentes (`N1`
 
 ---
 
-## b. Natureza das mensagens postadas por cada tipo de autor
+## Natureza das mensagens postadas por cada tipo de autor
 
 A simulação varia o perfil social, a frequência de postagem e a qualidade das mensagens entre os 9 usuários ao longo das 13 semanas:
 
@@ -80,7 +80,7 @@ A simulação varia o perfil social, a frequência de postagem e a qualidade das
 
 ---
 
-## c. Como os autores reagiram com (dis)likes e (un)revokes
+## Como os autores reagiram com (dis)likes e (un)revokes
 
 A simulação exercita todas as formas de reação e moderação do Freechains v0.20 ao longo dos 3 meses:
 
@@ -108,7 +108,7 @@ A simulação exercita todas as formas de reação e moderação do Freechains v
 
 ---
 
-## d. Conclusão sobre a simulação
+## Conclusão sobre a simulação
 
 Os resultados obtidos ao final dos 92 dias simulados (`simul.log`) demonstram como o protocolo **Freechains v0.20** sustenta todas as regras de negócio da aplicação de alertas comunitários sem servidor central:
 
